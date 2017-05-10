@@ -2,4 +2,6 @@
     <string name="app_name">TestGeronimo</string>
     <string name="action_remove">Remove</string>
     <string name="action_remove_all">Remove all</string>
+    <string name="text_placeholder">No data please press the + button</string>
+    <string name="text_title_mock">Lorem ipsum dolor</string>
 </resources>

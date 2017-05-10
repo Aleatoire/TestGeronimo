@@ -77,3 +77,17 @@ public class MainActivity extends AppCompatActivity {
         return super.onOptionsItemSelected(item);
     }
 
+    private void checkPlaceholder() {
+        if (mMockAdapter.getItemCount() == 0)
+            mPlaceholder.setVisibility(View.VISIBLE);
+        else
+            mPlaceholder.setVisibility(View.GONE);
+
+    }
+
+    @OnClick(R.id.fab)
+    public void onViewClicked() {
+        mMockAdapter.addItem();
+        checkPlaceholder();
+    }
+}

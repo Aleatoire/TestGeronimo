@@ -9,5 +9,25 @@
     tools:context="adev.testgeronimo.MainActivity"
     tools:showIn="@layout/activity_main">
 
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clipToPadding="false"
+        android:padding="10dip"/>
+
+    <LinearLayout
+        android:id="@+id/placeholder_ctn"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:visibility="gone">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_placeholder"/>
+
+    </LinearLayout>
 
 </RelativeLayout>
