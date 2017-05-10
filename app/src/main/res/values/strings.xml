@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">TestGeronimo</string>
+    <string name="action_remove">Remove</string>
+    <string name="action_remove_all">Remove all</string>
+</resources>
